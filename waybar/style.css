@@ -1,0 +1,64 @@
+
+* {
+    /* Ensure you have a Nerd Font installed for the icons to work */
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
+    font-size: 15px;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background-color: rgba(20, 20, 20, 0.67); /* Semi-transparent dark background */
+    border-radius: 40px; /* Gives it the pill shape */
+    color: #e0e0e0;
+}
+
+/* Spacing out the main sections */
+.modules-left, .modules-center, .modules-right {
+    padding: 4px 12px;
+}
+
+/* Clock styling */
+#clock {
+    font-weight: bold;
+    color: #cdd6f4;
+    margin-left: 8px;
+}
+
+/* Workspace styling */
+#workspaces button {
+    color: #888888;
+    padding: 2px 10px;
+    margin: 4px 2px;
+    background: transparent;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    border: none;
+    box-shadow: none;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Active workspace gets the pinkish pill background */
+#workspaces button.active {
+    background-color: #e6a8b7; /* Matches the soft pink/red in the image */
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+/* Icon spacing on the right */
+#pulseaudio, #network, #idle_inhibitor, #battery {
+    padding: 0 8px;
+    color: #cdd6f4;
+}
+
+
+/* Remove ugly GTK outlines */
+button:focus {
+    box-shadow: none;
+    outline: none;
+}

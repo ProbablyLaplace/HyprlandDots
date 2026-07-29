@@ -1,5 +1,7 @@
 # HyprlandDots
 
+<b> THIS IS AN OUTDATED REPOSITORY. USE AT YOUR OWN RISK </b>
+
 
 This is just a thing I tried with hyprland. I took the Waybar inspiration from some dots I found online (I dont know who made them)
 You can freely edit and modify this to your use :)
@@ -11,7 +13,7 @@ Maybe I'll update it soon???
 :)) 
 
 Required stuff :
-Matugen, swww, kitty, waybar.
+Matugen, awww, kitty, waybar.
 
 
 
